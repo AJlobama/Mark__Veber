@@ -25,3 +25,35 @@
   text-decoration-line: underline;
   color: #ffffff;
 }
+
+.nav__arrow__right {
+  width: 39px;
+  height: 39px;
+}
+
+.nav__arrow__left {
+  width: 39px;
+  height: 39px;
+}
+
+.nav__arrow {
+  opacity: 0.3;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.nav__exposition {
+  margin-left: 30px;
+  width: 490px;
+  height: 141px;
+}
+
+.nav__exposition__header {
+  font-family: Core Sans C;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}

@@ -1,8 +1,17 @@
+.fond {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .fond__contain {
   position: relative;
-  min-height: 100vh;
+}
+
+.fond__video {
+  position: absolute;
   width: 100%;
-  height: 100%;
+  height: auto;
   top: 0px;
   left: 0px;
   display: flex;
