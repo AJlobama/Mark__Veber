@@ -1,0 +1,15 @@
+.banner {
+	height: 100vh;
+	position: relative;
+	z-index: 0;
+
+	&__video {
+		position: absolute;
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+	}
+}

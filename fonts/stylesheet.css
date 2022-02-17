@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Core Sans C 25';
+    src: url('CoreSansC-25ExtraLight.woff2') format('woff2'),
+        url('CoreSansC-25ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 15';
+    src: url('CoreSansC-15ThinIt.woff2') format('woff2'),
+        url('CoreSansC-15ThinIt.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 15';
+    src: url('CoreSansC-15Thin.woff2') format('woff2'),
+        url('CoreSansC-15Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 75';
+    src: url('CoreSansC-75ExtraBold.woff2') format('woff2'),
+        url('CoreSansC-75ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 75';
+    src: url('CoreSansC-75ExtraBoldIt.woff2') format('woff2'),
+        url('CoreSansC-75ExtraBoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 55';
+    src: url('CoreSansC-55Medium.woff2') format('woff2'),
+        url('CoreSansC-55Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 35';
+    src: url('CoreSansC-35LightIt.woff2') format('woff2'),
+        url('CoreSansC-35LightIt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 25';
+    src: url('CoreSansC-25ExtraLightIt.woff2') format('woff2'),
+        url('CoreSansC-25ExtraLightIt.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 85';
+    src: url('CoreSansC-85Heavy.woff2') format('woff2'),
+        url('CoreSansC-85Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 35';
+    src: url('CoreSansC-35Light.woff2') format('woff2'),
+        url('CoreSansC-35Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 95';
+    src: url('CoreSansC-95Black.woff2') format('woff2'),
+        url('CoreSansC-95Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 85';
+    src: url('CoreSansC-85HeavyIt.woff2') format('woff2'),
+        url('CoreSansC-85HeavyIt.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 95';
+    src: url('CoreSansC-95BlackIt.woff2') format('woff2'),
+        url('CoreSansC-95BlackIt.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 45';
+    src: url('CoreSansC-45RegularIt.woff2') format('woff2'),
+        url('CoreSansC-45RegularIt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 65';
+    src: url('CoreSansC-65BoldIt.woff2') format('woff2'),
+        url('CoreSansC-65BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 55';
+    src: url('CoreSansC-55MediumIt.woff2') format('woff2'),
+        url('CoreSansC-55MediumIt.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 65';
+    src: url('CoreSansC-65Bold.woff2') format('woff2'),
+        url('CoreSansC-65Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Core Sans C 45';
+    src: url('CoreSansC-45Regular.woff2') format('woff2'),
+        url('CoreSansC-45Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

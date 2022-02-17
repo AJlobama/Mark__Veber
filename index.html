@@ -5,87 +5,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/fond.css" />
-    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Bilder</title>
   </head>
+
   <body>
-    <main class="fond">
-      <div class="fond__contain">
-        <video muted preload="auto" autoplay loop class="fond__video">
+    <main class="main">
+      <section class="banner">
+        <video muted preload="auto" autoplay loop class="banner__video">
           <source src="videos/background.webm" type="video/webm" />
           <source src="videos/background.mp4" type="video/mp4" />
         </video>
 
-        <section class="header">
-          <div class="header__contain">
-            <div class="header__lable">
-              <p class="header__lable-text">
-                <span>Life</span>
-                development
-              </p>
-            </div>
-            <div class="header__contact-link">
-              <a href="tel:8 800-222-37-90">8 800-222-37-90</a>
-              <span class="header__contact-text"
-                >Работаем ежедневно с 10:00 до 20:00</span
-              >
-            </div>
-            <div class="header__nav">
-              <ul>
-                <li class="nav__menu"><a href="#">Квартиры</a></li>
-                <li class="nav__menu"><a href="#">Ипотека</a></li>
-                <li class="nav__menu"><a href="#">Коммерция</a></li>
-                <li class="nav__menu"><a href="#">Управляющая компания</a></li>
-                <li class="nav__menu"><a href="#">Бургер</a></li>
-              </ul>
-            </div>
-          </div>
-        </section>
+        <header class="header">
+          <div class="container">
+            <div class="header__wrapper">
+              <a class="header__logo" href="#">
+                <img src="img/logo.svg" alt="logo" />
+              </a>
 
-        <section class="nav">
-          <div class="nav__building-one">
-            <ul>
-              <li class="nav__building-exposition">Северный парк</li>
-              <li class="nav__building-exposition">Станция Столичная</li>
-              <li class="nav__building-exposition">Лето</li>
-              <li class="nav__building-exposition">Сказочный сад</li>
-              <li class="nav__building-exposition">Краски</li>
-            </ul>
-            <div class="nav__building-two">
-              <ul>
-                <li class="nav__building-exposition">Ренесанс</li>
-                <li class="nav__building-exposition">Компасс сити</li>
-                <li class="nav__building-exposition">Бруклин</li>
-                <li class="nav__building-exposition">Монблан</li>
-              </ul>
-            </div>
-            <div class="nav__arrow__right">
-              <a class="icon__arrow">
-                <svg>
-                  <use xlink: href="img/Vector.svg"></use>
-                </svg>
-              </a>
-            </div>
-            <div class="nav__arrow__left">
-              <a class="icon__arrow">
-                <svg>
-                  <use xlink: href="img/Vector.svg"></use>
-                </svg>
-              </a>
-            </div>
-            <div class="nav__exposition">
-              <div class="nav__exposition-wrapper">
-                <h1 class="nav__exposition__header">
-                  Стильная архитектура и виды из окон будущей квартиры не
-                  оставят равнодушных
-                </h1>
+              <div class="header__contant">
+                <div class="header__contacts">
+                  <a href="tel:8 800-222-37-90">8 800-222-37-90</a>
+                  <span> Работаем ежедневно с 10:00 до 20:00 </span>
+                </div>
+
+                <!-- NAV -->
+                <div class="header__nav">
+                  <ul>
+                    <li class="header__nav-item"><a href="#">Квартиры</a></li>
+                    <li class="header__nav-item"><a href="#">Ипотека</a></li>
+                    <li class="header__nav-item"><a href="#">Коммерция</a></li>
+                    <li class="header__nav-item">
+                      <a href="#">Управляющая компания</a>
+                    </li>
+                  </ul>
+
+                  <button type="button" class="header__nav-btn">
+                    <img src="img/burger.svg" alt="burger" />
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </header>
+
+        <div class="content">
+          <div class="container">
+            <div class="content__wrapper">
+              <div class="content__body">
+                <div class="content__links-wrapper">
+                  <div class="content__links">
+                    <ul>
+                      <li class="content__links-item" data-number="01">
+                        Северный парк
+                      </li>
+                      <li class="content__links-item" data-number="02">
+                        Станция Столичная
+                      </li>
+                      <li class="content__links-item" data-number="03">Лето</li>
+                      <li class="content__links-item" data-number="04">
+                        Сказочный сад
+                      </li>
+                      <li class="content__links-item" data-number="05">
+                        Краски
+                      </li>
+                    </ul>
+
+                    <ul>
+                      <li class="content__links-item" data-number="06">
+                        Ренесанс
+                      </li>
+                      <li class="content__links-item" data-number="07">
+                        Компасс сити
+                      </li>
+                      <li class="content__links-item" data-number="08">
+                        Бруклин
+                      </li>
+                      <li class="content__links-item" data-number="09">
+                        Монблан
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="content__card hide">
+                    <div class="content__card-img">
+                      <img src="img/card-01.png" alt="city" />
+                    </div>
+                    <h2 class="content__card-title text-white">
+                      Северный парк
+                    </h2>
+                    <h2
+                      class="content__card-discription text-white text-opacity"
+                    >
+                      Жилой комплекс небывалого масштаба с развитой
+                      инфраструктурой
+                    </h2>
+                  </div>
+                </div>
+
+                <!-- <div class="nav__arrow__right">
+                  <a class="icon__arrow">
+                    <svg>
+                      <use xlink: href="img/Vector.svg"></use>
+                    </svg>
+                  </a>
+                </div>
+                <div class="nav__arrow__left">
+                  <a class="icon__arrow">
+                    <svg>
+                      <use xlink: href="img/Vector.svg"></use>
+                    </svg>
+                  </a>
+                </div> -->
+
+                <div class="content__description">
+                  <h1 class="content__description-title">
+                    Стильная архитектура и виды из окон будущей квартиры не
+                    оставят равнодушных
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
+
+  <script src="js/app.js"></script>
 </html>
