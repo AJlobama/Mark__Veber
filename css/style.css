@@ -413,6 +413,25 @@
   cursor: pointer;
 }
 
+.footer {
+  width: 100%;
+}
+
+.footer__container {
+  max-width: 1680px;
+  width: 100%;
+  padding: 0 40px;
+}
+
+.footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 body {
   font-family: 'Core Sans C';
 }
