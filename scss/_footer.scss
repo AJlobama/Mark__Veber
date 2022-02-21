@@ -10,5 +10,65 @@
   &__wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__room {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+
+  &__room-title {
+    font-family: "Core Sans C";
+    font-weight: 400;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 77px;
+    color: #fff;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    width: 314px;
+    height: 56px;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.16);
+
+    :first-child {
+      width: 90px;
+      border-radius: 7%;
+      color: black;
+      background-color: #fff;
+    }
+  }
+
+  &__rooms-numb {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 56px;
+    height: 56px;
+    color: #fff;
+  }
+
+  &__space {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+
+  &__space-form {
+    display: flex;
+    width: 270px;
+    height: 56px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.16);
+
+    input {
+      display: none;
+    }
   }
 }
