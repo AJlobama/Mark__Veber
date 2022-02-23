@@ -5,6 +5,7 @@
     max-width: 1680px;
     width: 100%;
     padding: 0 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
   }
 
   &__wrapper {
@@ -88,9 +89,30 @@
   }
 
   &__contents {
+    // display: flex;
+    // flex-direction: column;
+    // align-content: flex-start;
+  }
+
+  &__room-btn {
     display: flex;
-    flex-direction: column;
-    align-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    width: 270px;
+    height: 56px;
+    border: none;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, 0.16);
+    cursor: pointer;
+
+    &__text {
+      font-family: "Core Sans C";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 16px;
+      color: #ffffff;
+    }
   }
 
   &__room-selection {
