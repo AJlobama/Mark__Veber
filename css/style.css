@@ -562,24 +562,18 @@
   border-radius: 7px;
 }
 
-.footer__buttom {
+.footer__buttom-text {
   width: 224px;
   height: 56px;
+  border: none;
   border-radius: 7px;
-  background-color: #d90002;
-}
-
-.footer__buttom button {
-  display: none;
-}
-
-.footer__buttom-text {
   font-family: "Core Sans C";
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 16px;
   color: #ffffff;
+  background-color: #d90002;
+  cursor: pointer;
 }
 
 body {
