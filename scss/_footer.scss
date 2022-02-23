@@ -100,13 +100,27 @@
     border-radius: 7px;
   }
 
-  &__filters {
+  &__filters-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
     width: 127px;
     height: 56px;
-    opacity: 0.3;
-    border: 1px solid #ffffff;
-    box-sizing: border-box;
+    // opacity: 0.3;
     border-radius: 7px;
+    background: none;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+  }
+
+  &__filters-btn__text {
+    font-family: "Core Sans C";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 130.3%;
+    color: #ffffff;
   }
 
   &__buttom-text {
